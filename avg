@@ -1,0 +1,11 @@
+#avg of students
+sno=int(input("enter student id"))
+sname=str(input("enter student name"))
+group=str(input("enter group"))
+sub_1=int(input("enter marks"))
+sub_2=int(input("enter marks"))
+sub_3=int(input("enter marks"))
+total=sub_1+sub_2+sub_3
+avg=total/3
+print("total:",total)
+print("avg:",avg)
